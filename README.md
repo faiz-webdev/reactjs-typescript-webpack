@@ -1,5 +1,8 @@
 # Packages
 
+## run the project
+`npm start`
+
 ## Instructions and steps
 
 ### `Step 1: create folder react-typescript-webpack directory`
