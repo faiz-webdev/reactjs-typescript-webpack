@@ -3,6 +3,12 @@
 ## run the project
 `npm start`
 
+## Build the project
+`npm run build`
+
+## Run the project build
+`npx serve`
+
 ## Instructions and steps
 
 ### `Step 1: create folder react-typescript-webpack directory`
@@ -26,3 +32,15 @@
 
 ### `Step 7: Install css loader package and setup css configuration in webpack`
 #### `npm i -D css-loader style-loader`
+
+## Setup webpack for multiple environments
+### `step 1: remane webpack.config.js to webpack.common.js and remove mode property`
+
+### `step 2: create 3 new files 1. webpack.dev.js, 2. webpack.prod.js and 3. webpack.config.js`
+
+### `step 3: install below package`
+#### `npm i -D webpack-merge`
+
+### `step 4: update scripts`
+#### `"start": webpack serve --config webpack/webpack.config.js --env env=dev --open`
+#### `"build": "webpack --config webpack/webpack.config.js --env env=prod",`
