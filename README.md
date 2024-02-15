@@ -44,3 +44,10 @@
 ### `step 4: update scripts`
 #### `"start": webpack serve --config webpack/webpack.config.js --env env=dev --open`
 #### `"build": "webpack --config webpack/webpack.config.js --env env=prod",`
+
+## Setup refresh issue configuration
+### `step 1: install package`
+#### `npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh`
+#### `package url: https://github.com/pmmmwh/react-refresh-webpack-plugin`
+
+### `step 2: edit webpack.dev.js file`
